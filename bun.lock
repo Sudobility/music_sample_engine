@@ -104,11 +104,11 @@
 
     "@standard-schema/spec": ["@standard-schema/spec@1.1.0", "", {}, "sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w=="],
 
-    "@sudobility/music_player": ["@sudobility/music_player@0.1.67", "", { "peerDependencies": { "@sudobility/music_types": "^0.13.52", "js-synthesizer": "^1.13.0", "react": ">=18.0.0", "react-native-audio-api": ">=0.13.0" }, "optionalPeers": ["js-synthesizer", "react", "react-native-audio-api"] }, "sha512-+6Dhtbh6YpD3Fdoe8dFmCCuOFqAUy9RbfekhP5uqTsNX2OaDE6e2Y7SfuczEC4XKRm7/pyQqBj7XXuuZlN4++w=="],
+    "@sudobility/music_player": ["@sudobility/music_player@0.1.82", "https://npm.pkg.github.com/download/@sudobility/music_player/0.1.82/57a8bddb5f14a65986663f3573e6238606e2c652", { "peerDependencies": { "@sudobility/music_types": "^0.13.62", "react": ">=18.0.0" } }, "sha512-bIrksUDREXz5oGr0DLWu1Zt/1lxHr2vlorApfqCsN21GFX5pEkTkQK30E6q+r6k1CFLyScIXmHIe3j+4BcTOrA=="],
 
-    "@sudobility/music_types": ["@sudobility/music_types@0.13.52", "", { "peerDependencies": { "@sudobility/types": "^1.9.68", "immer": "^10.0.0 || ^11.0.0", "zod": "^4.0.0" } }, "sha512-Ti4+1yrOFEz0w5zl/unkvS5f9ZfIATQSmnRz02nIvlRPBM+qUXSJwYr5Oc+4ts9FDLQ5c6TaXuUhO8gHBHojYQ=="],
+    "@sudobility/music_types": ["@sudobility/music_types@0.13.62", "https://npm.pkg.github.com/download/@sudobility/music_types/0.13.62/e3c2aa29657c24c3c7b1bb81762fcb22c140d1b1", { "peerDependencies": { "@sudobility/types": "^1.9.78", "immer": "^10.0.0 || ^11.0.0", "zod": "^4.0.0" } }, "sha512-JCYIggLmiXDL0CBb8yp0uewc1GcUjvZDseC6kC05qHCq8VDCGpptiM8BdPSdIFVnGQrUrqtL0XUJidCfs5dIuw=="],
 
-    "@sudobility/types": ["@sudobility/types@1.9.71", "", {}, "sha512-BhgnvH5zF3HEiknZYbhtaMEuQ9q18qBFJErg8hzObJaHlXp95RauswKLeoHl9viVCFtpiWhOUPiT5kA5/iR7bQ=="],
+    "@sudobility/types": ["@sudobility/types@1.9.78", "https://npm.pkg.github.com/download/@sudobility/types/1.9.78/19ca0df5ad7d490bafc1b84384a8002f5dbc29ea", {}, "sha512-W6DYMUf7D0cVVUHDv5T8YZ339Wyay6xPx0CsdfNVgHDsm1ISDLhwacUwlM9xnvwXHGuAhP77wRVVo3uKGZe46Q=="],
 
     "@types/chai": ["@types/chai@5.2.3", "", { "dependencies": { "@types/deep-eql": "*", "assertion-error": "^2.0.1" } }, "sha512-Mw558oeA9fFbv65/y4mHtXDs9bPnFMZAL/jxdPFUpOHHIXX91mcgEHbS5Lahr+pwZFR8A7GQleRWeI6cGFC2UA=="],
 
@@ -325,6 +325,8 @@
     "punycode": ["punycode@2.3.1", "", {}, "sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg=="],
 
     "qified": ["qified@0.10.1", "", { "dependencies": { "hookified": "^2.1.1" } }, "sha512-+Owyggi9IxT1ePKGafcI87ubSmxol6smwJ+RAHDQlx9+9cPwFWDiKFFCPuWhr9ignlGpZ9vDQLw67N4dcTVFEA=="],
+
+    "react": ["react@19.3.1", "", {}, "sha512-QNhWdt7nrgVWWQG58QuGsAR3jv3Hbe4mb4vz7w2csnHavciZJgda1CPNaldF6eVxv90ud3jUXpKlHL69gO38yw=="],
 
     "rimraf": ["rimraf@6.1.4", "", { "dependencies": { "glob": "^14.0.3", "package-json-from-dist": "^1.0.1" }, "bin": { "rimraf": "dist/esm/bin.mjs" } }, "sha512-Fk3reQDVPZUMbEm7Zwxz03BWQMW3V5buSk9aU8OckTrO8A1nQtbqvYsAantGNermwsIsXcuOBqcoJ3HuMELctw=="],
 
