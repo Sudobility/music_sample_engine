@@ -6,8 +6,8 @@
       "name": "@sudobility/music_sample_engine",
       "devDependencies": {
         "@eslint/js": "~10.0.1",
-        "@sudobility/music_player": "^0.1.67",
-        "@sudobility/music_types": "^0.13.52",
+        "@sudobility/music_player": "^0.1.82",
+        "@sudobility/music_types": "^0.13.62",
         "@types/node": "~26.6.5",
         "@typescript-eslint/eslint-plugin": "~8.72.0",
         "@typescript-eslint/parser": "~8.72.0",
@@ -20,8 +20,8 @@
         "vitest": "~4.1.12",
       },
       "peerDependencies": {
-        "@sudobility/music_player": "^0.1.80",
-        "@sudobility/music_types": "^0.13.60",
+        "@sudobility/music_player": "^0.1.82",
+        "@sudobility/music_types": "^0.13.62",
         "react-native-audio-api": ">=0.13.0",
       },
       "optionalPeers": [
