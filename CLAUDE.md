@@ -40,7 +40,7 @@ So its use can be **monitored** and it can be **retired by deletion**.
   `Honky-tonk Piano` → `honkytonk_piano`. 127/128 (program 54 disagrees).
   `gm-pack-name.test.ts` checks all 128; a wrong name is a 404 → zero samples →
   an instrument that plays nothing with no error.
-- **Drum kits are rendered, not fetched** (`scripts/build-percussion-packs.mjs`):
+- **Drum kits are rendered, not fetched** (`music_io/scripts/build-percussion-packs.mjs`):
   no CDN publishes usably-licensed GM percussion. `percussionBase` has **no
   default** (kits are app-hosted); unset, an app gets a sentence naming the build
   script rather than silent percussion.
@@ -48,7 +48,7 @@ So its use can be **monitored** and it can be **retired by deletion**.
   number names a different instrument, so a missing slot plays nothing (as real
   hardware does), not a detuned neighbour.
 - **Expression a recording can't carry is measured back in**
-  (`playback/expression.ts`, `scripts/measure-expression.mjs`): packs are at full
+  (`playback/expression.ts`, `music_io/scripts/measure-expression.mjs`): packs are at full
   velocity. Three fixes — velocity is `(v/127)²` (SF2 concave modulator); a
   per-instrument low-pass whose corner falls with velocity (57/128 darken); a
   per-instrument release (median 0.56s). The table is **measured, not extracted**
@@ -76,8 +76,9 @@ So its use can be **monitored** and it can be **retired by deletion**.
 
 - `bun install` — deps. In cross-repo work, overlay local `music_player` and
   `music_types` builds afterward (`bun install` reinstalls from the registry).
-- `bun run verify` — format, typecheck, lint, test, build. Before any push.
-- `bun run test` — vitest (node; `react-native-audio-api` is faked per suite).
+- `bun run verify` — format:check, typecheck, lint, test:unit, build. Before any push.
+- `bun run test:unit` — vitest run (node; `react-native-audio-api` is faked per
+  suite). `bun run test:watch` for watch mode. There is no `test` script.
 
 ## Related
 
