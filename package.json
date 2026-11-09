@@ -1,6 +1,6 @@
 {
   "name": "@sudobility/music_sample_engine",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "MP3 sample-based FluidR3 playback engine for ScoreSmith on React Native — the fallback when no native synth is available",
   "author": "Sudobility",
   "license": "BUSL-1.1",
@@ -46,8 +46,8 @@
     "prepublishOnly": "bun run clean && bun run verify"
   },
   "peerDependencies": {
-    "@sudobility/music_player": "^0.1.84",
-    "@sudobility/music_types": "^0.13.64",
+    "@sudobility/music_player": "^0.1.85",
+    "@sudobility/music_types": "^0.13.65",
     "react-native-audio-api": ">=0.13.0"
   },
   "peerDependenciesMeta": {
@@ -57,8 +57,8 @@
   },
   "devDependencies": {
     "@eslint/js": "~10.0.1",
-    "@sudobility/music_player": "^0.1.84",
-    "@sudobility/music_types": "^0.13.64",
+    "@sudobility/music_player": "^0.1.85",
+    "@sudobility/music_types": "^0.13.65",
     "@types/node": "~26.6.5",
     "@typescript-eslint/eslint-plugin": "~8.72.0",
     "@typescript-eslint/parser": "~8.72.0",
